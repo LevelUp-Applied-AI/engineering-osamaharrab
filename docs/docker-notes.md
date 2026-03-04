@@ -33,9 +33,12 @@ Server: Docker Desktop 4.63.0 (220185)
 
 
 
-## Hello World Test 
+## Hello World Test
 
+Command:
+docker run hello-world
 
+Output:
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
 
@@ -51,7 +54,7 @@ docker run -d \
 
 ## log output 
 LOG:  database system is ready to accept connections    
-=======
+
 # Docker Notes — Day 9
 
 ## Docker Version
@@ -118,4 +121,5 @@ pg-prework
 docker logs pg-prework
 
 LOG:  database system is ready to accept connections
->>>>>>> 22ac1bd (Add restart step to docker notes)
+
+
