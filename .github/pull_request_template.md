@@ -21,6 +21,10 @@ This PR contains one logical change only.
 No unrelated refactors, style fixes, or dependency updates are included.
 
 ## Checklist
+
+- [ ] Tests added or updated
+- [ ] Documentation updated
+- [ ] Code reviewed
 - [ ] Title follows Conventional Commits format
 - [ ] PR contains one logical change only
 - [ ] Tests added or updated where appropriate
