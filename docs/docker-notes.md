@@ -1,0 +1,125 @@
+<<<<<<< HEAD
+# Docker Notes — Day 9
+
+## Docker Version
+Client:
+ Version:           29.2.1
+ API version:       1.53
+ Go version:        go1.25.6
+ Git commit:        a5c7197
+ Built:             Mon Feb  2 17:20:16 2026
+ OS/Arch:           windows/amd64
+ Context:           desktop-linux
+
+Server: Docker Desktop 4.63.0 (220185)
+ Engine:
+  Version:          29.2.1
+  API version:      1.53 (minimum version 1.44)
+  Go version:       go1.25.6
+  Git commit:       6bc6209
+  Built:            Mon Feb  2 17:17:24 2026
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v2.2.1
+  GitCommit:        dea7da592f5d1d2b7755e3a161be07f43fad8f75
+ runc:
+  Version:          1.3.4
+  GitCommit:        v1.3.4-0-gd6d73eb8
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+
+
+
+## Hello World Test
+
+Command:
+docker run hello-world
+
+Output:
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+
+## Postgres Container Command used:
+bash
+docker run -d \
+  --name pg-prework \
+  -e POSTGRES_PASSWORD=prework \
+  -p 5432:5432 \
+  postgres:15-alpine
+
+
+## log output 
+LOG:  database system is ready to accept connections    
+
+# Docker Notes — Day 9
+
+## Docker Version
+Client:
+ Version:           29.2.1
+ API version:       1.53
+ Go version:        go1.25.6
+ Git commit:        a5c7197
+ Built:             Mon Feb  2 17:20:16 2026
+ OS/Arch:           windows/amd64
+ Context:           desktop-linux
+
+Server: Docker Desktop 4.63.0 (220185)
+ Engine:
+  Version:          29.2.1
+  API version:      1.53 (minimum version 1.44)
+  Go version:       go1.25.6
+  Git commit:       6bc6209
+  Built:            Mon Feb  2 17:17:24 2026
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v2.2.1
+  GitCommit:        dea7da592f5d1d2b7755e3a161be07f43fad8f75
+ runc:
+  Version:          1.3.4
+  GitCommit:        v1.3.4-0-gd6d73eb8
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+
+
+
+## Hello World Test 
+
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+
+## Postgres Container Command used:
+bash
+docker run -d \
+  --name pg-prework \
+  -e POSTGRES_PASSWORD=prework \
+  -p 5432:5432 \
+  postgres:15-alpine
+
+
+## log output 
+LOG:  database system is ready to accept connections    
+
+## Stop and Restart
+
+docker stop pg-prework
+
+pg-prework
+
+docker restart pg-prework
+
+pg-prework
+
+docker logs pg-prework
+
+LOG:  database system is ready to accept connections
+
+

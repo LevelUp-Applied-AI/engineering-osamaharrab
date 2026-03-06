@@ -28,3 +28,24 @@ source .venv/bin/activate   # Mac/Linux
 # or: source .venv/Scripts/activate  (Windows Git Bash)
 pip install -r requirements-prework.txt
 ```
+## How to run
+
+1. Navigate to the project directory: 
+cd engineering-osamaharrab
+ 
+2. Create and activate a virtual environment:
+ python -m venv venv
+ source venv/Scripts/activate
+ pip install -r requirements.txt
+
+ 
+3. Run the application:
+python src/app.py
+
+
+4. Confirm success:
+The program should run without errors.
+If tests exist, run:
+pytest
+All tests should pass.
+
