@@ -1,6 +1,7 @@
 # SQL Query Results — Day 8
 
-## Query 1: All Students (ordered by prereq_score DESC)
+## Query 1
+ All Students (ordered by prereq_score DESC)
 
 (6, 'Lina Barakat', '2024B', 'Jordan', 95.0)
 (12, 'Sara Mahmoud', '2025A', 'Jordan', 93.5)
@@ -18,7 +19,8 @@
 (9, 'Khalil Jaber', '2024B', 'Jordan', 61.5)
 (13, 'Yousef Al-Ahmad', '2025A', 'Jordan', 55.0)
 
-## Query 2: Students with prereq_score >= 80
+## Query 2
+Students with prereq_score >= 80
 
 ('Lina Barakat', 'Jordan', 95.0)
 ('Sara Mahmoud', 'Jordan', 93.5)
@@ -29,14 +31,16 @@
 ('Maya Qassem', 'Palestine', 82.0)
 ('Rania Odeh', 'Jordan', 80.0)
 
-## Query 3: Average Score by Cohort
+## Query 3
+ Average Score by Cohort
 
 ('2024A', 5, 81.8)
 ('2024B', 5, 79.5)
 ('2025A', 5, 75.5)
 
 
-## Query 4: Students + Projects (non-missing)
+## Query 4 
+Students + Projects (non-missing)
 
 ('Aisha Al-Rashidi', '2024A', 'Laptop Verify', 1, 'submitted', 95.0)
 ('Aisha Al-Rashidi', '2024A', 'Python Env', 2, 'submitted', 88.0)
